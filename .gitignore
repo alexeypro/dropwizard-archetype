@@ -4,3 +4,11 @@
 *.jar
 *.war
 *.ear
+
+# Mac files #
+.DS_Store
+
+# Usual build folders #
+target/
+build/
+dist/
