@@ -1,7 +1,7 @@
 dropwizard-archetype
 ====================
 
-Maven2 Archetype for Coda Hale&#39;s Dropwizard
+# Maven2 Archetype for Coda Hale&#39;s Dropwizard
 
 $ mvn package
 
@@ -13,4 +13,16 @@ $ open http://localhost:8080/hello-world/hi.html http://localhost:8080/hello-wor
 
 $ open http://localhost:8081/ http://localhost:8081/metrics http://localhost:8081/threads http://localhost:8081/healthcheck
 
+# If you need to create an archetype from it just do:
 
+$ mvn archetype:create-from-project
+
+$ cd target/generated-sources/archetype/
+
+$ mvn install
+
+$ cd ~/code/
+
+$ mvn archetype:generate -DarchetypeGroupId=com.alexeypro.samples -DarchetypeArtifactId=dropwizard-example-archetype
+
+All done. 
