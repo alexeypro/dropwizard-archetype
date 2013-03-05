@@ -1,7 +1,7 @@
 package com.alexeypro.samples;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.yammer.dropwizard.config.Configuration;
-import org.codehaus.jackson.annotate.JsonProperty;
 import org.hibernate.validator.constraints.NotEmpty;
 
 public class HelloWorldConfiguration extends Configuration {
